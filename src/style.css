@@ -1,32 +1,32 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     color: black;
+    font-family: Rubik Distressed, sans-serif;
     
-   
 }
-body{
+
+main{
     text-align: center;
     min-height: 100vh;
     background-image: linear-gradient( to bottom, rgb(117, 195, 237), white);
-    
+}
+
+section{    
+    width: 30vw;
+    height: 32vw;
 }
 
 .button{
-    color: #090909;
-    padding: 0.4em 1.2em;
-    border-radius: 0.5em;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
-    box-shadow: -6px 6px 12px #c5c5c5 ;
+   
+    box-shadow: -4px 4px 12px #e6e6e6 ;
     
 }
 .button:active{
-    box-shadow: inset -2px 2px 0  #c5c5c5;
+    box-shadow: inset -4px 4px 12px #eae9e9 ;
 }
-
 
 #area{
     position: absolute;
@@ -41,8 +41,8 @@ img{
     height: 100%;
 }
 #imagem{
-    min-height: 20vh;
-    min-width: 10vh;
-    max-height: 30vh;
-    max-width: 10vh;
+    
+    height: 12vw;
+    min-width: 2vw;
+    max-width: 10vw;
 }
