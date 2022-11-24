@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo IMC</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="fundo" >
+        <div id="area">
+            <h1>Cálculo de IMC</h1>
+            <p>Peso</p>
+            <input type="text" id="peso">
+            <button class="button-disabled" disabled="disabled">Kg</button>
+            <p>Altura</p>
+            <input type="text" id="altura">
+            <button class="button-disabled" disabled="disabled">M</button> <br> <br>
+            <button onclick="start()" class="button" id="calc">Calular</button>
+            <div class="imagem">
+            <img id="imagem" src="../src/imagens/snorlax.png" alt="Estado Físico">
+            </div>
+            <p id="res"> </p>
+        </div>
+    </div>
+</body>
+</html>
